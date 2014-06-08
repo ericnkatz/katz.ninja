@@ -65,7 +65,7 @@
 </head>
 <body>
     <div class="welcome">
-        <a href="/"><img src="/img/katzninja.png"></a>
+        <a href="/"><img src="/img/katzninja.svg"></a>
         <h1>katz.ninja</h1>
         <p>Coming soon...</p>
         <p><a href="https://github.com/ericnkatz/katz.ninja"><i class="fa fa-github"></i> ericnkatz/katz.ninja</a></p>
