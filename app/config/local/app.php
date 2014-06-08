@@ -4,6 +4,6 @@ return [
 
 	'debug'	=> true,
 	
-	'url'	=> 'http://localhost'
+	'url'	=> 'http://katzninja.dev'
 	
 ];
