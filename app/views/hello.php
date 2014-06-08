@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>katz.ninja</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
         @import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
 
@@ -29,12 +30,18 @@
             margin-bottom:0;
         }
         a, a:visited {
-            color:#FF5949;
+            color:#B8E986;
             text-decoration:none;
+
+            -webkit-transition:300ms;
+            -moz-transition:300ms;
+            -ms-transition:300ms;
+            transition:300ms;
         }
 
         a:hover {
-            text-decoration:underline;
+            color:#8BB165;
+            text-decoration:none;
         }
 
         ul li {
@@ -43,15 +50,25 @@
         }
 
         p {
-            margin:0 0;
+            margin:0 0 2em;
+        }
+        p a {
+            position:fixed;
+            bottom:2em;
+            left:0;
+            right:0;
+            text-align: center;
+            font-size:1.6em;
         }
     </style>
+
 </head>
 <body>
     <div class="welcome">
         <a href="/"><img src="/img/katzninja.png"></a>
         <h1>katz.ninja</h1>
-        <p>Coming soon</p>
+        <p>Coming soon...</p>
+        <p><a href="https://github.com/ericnkatz/katz.ninja"><i class="fa fa-github"></i> ericnkatz/katz.ninja</a></p>
     </div>
 </body>
 </html>
