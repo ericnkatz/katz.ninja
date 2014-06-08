@@ -14,6 +14,10 @@
 App::before(function($request)
 {
 	//
+	if(App::environment() == 'production') {
+		return View::make('hello');
+	}
+	
 });
 
 
