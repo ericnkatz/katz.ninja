@@ -7,7 +7,7 @@ return array(
 	),
 
 	'admin_group_rules' => array(
-		'prefix' => 'wardrobe',
+		'prefix' => 'admin',
 		// 'domain' => 'blog.site.com'
 	),
 
