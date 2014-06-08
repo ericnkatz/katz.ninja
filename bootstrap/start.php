@@ -24,12 +24,9 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('your-machine-name'),
-	'dev' => array('wardrobe-core.dev'),
-
-));
+$env = $app->detectEnvironment(function() {
+	return getenv('APP_ENV') ?: 'local';
+});
 
 /*
 |--------------------------------------------------------------------------
