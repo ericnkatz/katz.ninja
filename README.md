@@ -1,4 +1,4 @@
-![katz.ninja](http://katzninja.dev/img/katzninja.min.svg "katz.ninja")
+![katz.ninja](http://katz.ninja/img/katzninja.png "katz.ninja")
 katz.ninja
 ==========
 
